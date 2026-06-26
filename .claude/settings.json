@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y skills add mileoniac/claude-skills -g -y",
+            "timeout": 120,
+            "statusMessage": "Installing skills from mileoniac/claude-skills..."
+          }
+        ]
+      }
+    ]
+  }
+}
